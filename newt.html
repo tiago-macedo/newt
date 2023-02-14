@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<script type="text/javascript" src="./newt.js" defer></script>
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<link rel="stylesheet" href="./newt.css">
+	</head>
+
+	<body>
+		<textarea id="txt"></textarea>
+		<div id="rendered">
+# Welcome to the internet.
+
+![Hello](https://media1.tenor.com/images/8de6c65cad96453d111f748688c87247/tenor.gif?itemid=12803381)
+
+## ToDos
+
+- [x] Implement this page
+- [ ] Add real tasks to ToDo list
+- [ ] Launch new social network, make billions
+
+## About
+
+- Built with [Marked](https://marked.js.org/). Thank you!
+- Only one `.html` file, one `.css` and one `.js`.
+- No frameworks, only vanilla JavaScript. Would get rid of JavaScript all together if I had time to learn [WebAssembly](https://webassembly.org/).
+
+## How-to
+
+1. Make this page your browser's initial page.
+2. Write anything you want in this box. You can use [Markdown](https://www.markdownguide.org/) for formatting and more.
+3. Use ✨/📜 to switch between editing your notes and seeing them rendered.
+4. Use 🌞/🌚 to switch between dark mode and light mode.
+5. That's it!
+        </div>
+		<div id="panel">
+			<button id="color_switch" onclick="toggle_color()">☀️</button>
+			<button id="view_switch" onclick="toggle_view()">✨</button>
+		</div>
+	</body>
+</html>

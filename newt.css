@@ -1,0 +1,46 @@
+html, body {
+	height: 90%;
+}
+
+body {
+	background-color: var(--body_bg);
+	color: var(--body_fg);
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	padding: 5% 10% 0 10%;
+}
+
+#panel {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+span {
+	display: flex;
+	align-items: center;
+}
+
+
+button {
+	margin-right: 1em;
+	font-size: 1.5em;
+	background-color: var(--txt_bg);
+}
+
+#txt {
+	background-color: var(--txt_bg);
+	color: var(--txt_fg);
+	outline: none;
+	flex: 1;
+	height: 100%;
+	resize: none;
+
+	font-size: 1.5em;	
+}
+
+#rendered {
+	flex: 1;
+}
