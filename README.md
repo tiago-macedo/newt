@@ -1,10 +1,10 @@
 # newt
 
-An initial tab for you to make notes.
-
 [![abc](https://badgen.net/badge/what/do/blue)](https://t.ly/3-cp)
 [![abc](https://badgen.net/badge/people/use/green)](https://t.ly/3-cp)
 [![abc](https://badgen.net/badge/these/for%3F/orange)](https://t.ly/3-cp)
+
+An initial tab for you to make notes. Check it out on https://tiago-macedo.github.io/newt/.
 
 ![image](https://user-images.githubusercontent.com/32375039/218606424-ac8047e0-5989-4f40-b9cd-82b21cddb665.png)
 ![image](https://user-images.githubusercontent.com/32375039/218606509-129b64f2-2a8c-4f83-986c-0de2eb66198b.png)
@@ -32,4 +32,4 @@ Not in any specific order:
 
 ## License
 
-Copyright (c) 2023, Tiago Macedo. (MIT License)
+Copyright (c) 2023, Tiago Macedo. (GPLv3.0 License)
