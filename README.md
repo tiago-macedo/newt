@@ -11,11 +11,11 @@ An initial tab for you to make notes.
 
 ## What is this?
 
-A simple but effective, offline-capable webpage to be your initial page. It allows you to make notes, which are saved when the tab is closed. If the notes are in Markdown, it is rendered.
+A simple but effective, offline-capable homepage. It allows you to jot down notes, which are saved when the tab or browser is closed. If the notes are in Markdown, they can be rendered!
 
 ## Why the name?
 
-Initially I thought this was ging to be a new-tab page, then I realized that when you open multiple instances of newt, they don't sync. Works well as an inital page though.
+Initially I thought this was ging to be a new-tab page ("new tab", "newt", get it?), then I realized that when you open multiple instances of newt, they don't sync. Still works well as an inital page though.
 
 ## How does it work?
 
