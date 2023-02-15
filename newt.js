@@ -75,3 +75,13 @@ window.onbeforeunload = function() {
 }
 
 rendered.remove(rendered)
+
+//===============//
+// HANDLING TABS //
+//===============//
+
+textarea.addEventListener("keydown", (e) => {
+	if (e.key !== "Tab") return
+	e.preventDefault();
+	document.execCommand('insertText', false, "\t")
+})
