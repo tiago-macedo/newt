@@ -69,7 +69,7 @@ function indeterminate_checkboxes(element) {
 		for (item of items) {
 			if (item.textContent.substring(0, 3) !== "[-]") continue
 
-			item.innerHTML = "<input type='checkbox'> " + item.innerHTML
+			item.innerHTML = "<input type='checkbox' disabled=''> " + item.innerHTML
 			item.firstChild.indeterminate = true
 			item.childNodes[1].data = item.childNodes[1].data.substring(4)
 			indeterminate_checkboxes(item)
