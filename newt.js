@@ -59,7 +59,25 @@ function toggle_view() {
 	view = view === "textarea" ? "rendered" : "textarea"
 	
 	document.querySelector("#view_switch").innerHTML = view === "textarea" ? "✨" : "📜"
+	indeterminate_checkboxes(rendered)
 }
+
+function indeterminate_checkboxes(element) {
+	lists = get_lists(element)
+	for (list of lists) {
+		items = [...list.childNodes].filter((node) => node.tagName === "LI")
+		for (item of items) {
+			if (item.textContent.substring(0, 3) !== "[-]") continue
+
+			item.innerHTML = "<input type='checkbox'> " + item.innerHTML
+			item.firstChild.indeterminate = true
+			item.childNodes[1].data = item.childNodes[1].data.substring(4)
+			indeterminate_checkboxes(item)
+		}
+	}
+}
+
+const get_lists = (element) => [...element.childNodes].filter((node) => node.tagName === "UL")
 
 //==============//
 // INITIALIZING //
